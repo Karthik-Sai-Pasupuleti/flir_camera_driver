@@ -31,7 +31,7 @@ example_parameters = {
         'dump_node_map': False,
         # set parameters defined in blackfly_s.yaml
         'gain_auto': 'Continuous',
-        # 'pixel_format': 'BayerRG8',
+        'pixel_format': 'BGR8',
         'exposure_auto': 'Continuous',
         # to use a user set, do this:
         # 'user_set_selector': 'UserSet0',
@@ -44,8 +44,8 @@ example_parameters = {
         # 'gev_ieee_1588_mode': 'SlaveOnly', # 'SlaveOnly',  #'Auto',
         # 'use_ieee_1588' : True,
         # ---- to reduce the sensor width and shift the crop
-        # 'image_width': 1408,
-        # 'image_height': 1080,
+        'image_width': 640,
+        'image_height': 480,
         # 'offset_x': 16,
         # 'offset_y': 0,
         # 'binning_x': 1,
@@ -54,7 +54,7 @@ example_parameters = {
         # 'reverse_x': True,
         # 'reverse_y': True,
         'frame_rate_auto': 'Off',
-        'frame_rate': 40.0,
+        'frame_rate': 30.0,
         'frame_rate_enable': True,
         'buffer_queue_size': 10,
         'trigger_mode': 'Off',
