@@ -1,5 +1,17 @@
-*/launch/__pycache__
-*/build
-*/install
-*/log
-*/.cache    
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store

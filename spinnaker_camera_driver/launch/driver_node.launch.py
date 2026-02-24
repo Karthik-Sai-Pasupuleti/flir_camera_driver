@@ -31,6 +31,7 @@ example_parameters = {
         'dump_node_map': False,
         # set parameters defined in blackfly_s.yaml
         'gain_auto': 'Continuous',
+        'balance_white_auto': 'Continuous',
         'pixel_format': 'BGR8',
         'exposure_auto': 'Continuous',
         # to use a user set, do this:
