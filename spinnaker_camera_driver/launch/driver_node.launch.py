@@ -44,8 +44,8 @@ example_parameters = {
         # 'gev_ieee_1588_mode': 'SlaveOnly', # 'SlaveOnly',  #'Auto',
         # 'use_ieee_1588' : True,
         # ---- to reduce the sensor width and shift the crop
-        # 'image_width': 640,
-        # 'image_height': 480,
+        'image_width': 1440,
+        'image_height': 1080,
         # 'offset_x': 16,
         # 'offset_y': 0,
         # 'binning_x': 1,
