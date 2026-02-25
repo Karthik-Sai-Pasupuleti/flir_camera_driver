@@ -63,6 +63,7 @@ parameters:
   - name: gain
     type: float
     node: AnalogControl/Gain
+
   - name: balance_white_auto
     type: enum
     node: AnalogControl/BalanceWhiteAuto
